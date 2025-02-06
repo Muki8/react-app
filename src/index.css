@@ -1,0 +1,95 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Estilos del menú */
+nav {
+  background-color: #007bff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Contenedor de páginas */
+div {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input y botones */
+input {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Estilos de la tabla de multiplicar */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #e9ecef;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Imagen de perfil */
+img {
+  border-radius: 50%;
+  border: 2px solid #007bff;
+  width: 100px;
+  height: 100px;
+}
+
+/* Estilos para el iframe del video */
+iframe {
+  margin-top: 20px;
+  border-radius: 10px;
+}
